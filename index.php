@@ -7,26 +7,33 @@
     <title>Nombre</title>
 </head>
 <body>
+    <h1 class="display-4 my-4 text-center">Registros en bases de datos diferentes</h1>
     <div class="container">
         <div class="row">
-            <div class="col">
-                <div class="form-group">
-                  <label for="basedatos">Selecciona una BD</label>
-                  <select class="form-control" name="basedatos" id="basedatos">
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                  </select>
-                </div>
+            <div class="col-6 offset-3">
+                <div class="card text-dark bg-light">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="basedatos">Selecciona una BD</label>
+                            <select class="form-control" name="basedatos" id="basedatos">
+                                <option value="nombres">Base de datos #1</option>
+                                <option value="nombres1">Base de datos #2</option>
+                                <option value="nombres2">Base de datos #3</option>
+                            </select>
+                        </div>
 
-                <div class="form-group">
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Introduce tu nombre" aria-describedby="helpId">
-                <small id="helpId" class="text-muted">Introduce tu nombre o nombres</small>
-                
-                <span id="agregar" class="btn btn-primary">Agregar</span>
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Introduce tu nombre" aria-describedby="helpId">
+                            <small id="helpId" class="text-muted">Introduce tu nombre o nombres</small>
+                            
+                        </div>
+                        <div>
+                            <span id="agregar" class="btn btn-primary btn-block">Agregar</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
         </div>
     </div>
 
